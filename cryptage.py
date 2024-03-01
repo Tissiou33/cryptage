@@ -16,4 +16,4 @@ message_crypte = xor_crypt_string(message, cle)
 print(f'Encrypted message: {message_crypte} \n')
 
 message_decrypte = xor_crypt_string(message_crypte, cle)
-print(f'Decrypted message: {message_decrypte} \n' )
+print(f'Decrypted message: {message_decrypte} \n' ) #affichage du message
